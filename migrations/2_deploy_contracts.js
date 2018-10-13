@@ -1,8 +1,8 @@
 // Update your migrations if you change the name of the contracts 
 // or add new ones
 
-var WorkshopRegister = artifacts.require("./WorkshopRegister.sol");
+var VotingSystem = artifacts.require("./VotingSystem.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(WorkshopRegister);
+  deployer.deploy(VotingSystem);
 };
